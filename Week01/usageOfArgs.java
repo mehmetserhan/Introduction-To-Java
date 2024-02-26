@@ -1,4 +1,4 @@
-public class args_as_parameters{
+public class usageOfArgs{
     public static void main(String args[]){
         System.out.println("args[0]: "+args[0]);
         System.out.println("args[1]: "+args[1]);

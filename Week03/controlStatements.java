@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class control_statements{
+public class controlStatements{
     public static void main(String args[]){
         Scanner read = new Scanner(System.in);
         

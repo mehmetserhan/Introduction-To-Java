@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class hashMap_hashSet {
+public class hashMapAndHashSet {
 	public static void main(String[] args) {
 		HashMap <String, String> hmap = new HashMap <String, String>();
 		String cityCodes[][] = {{"06", "Ankara"}, {"09", "Aydin"}, {"35", "Izmir"}, {"34", "Istanbul"}};

@@ -1,4 +1,4 @@
-public class casting_logical_exp{
+public class castingAndLogicalExp{
     public static void main(String args[]){
         /*  btye - short - int - long - float - double
          *  double to btye is widening type casting (known as downcasting) -> no loss
