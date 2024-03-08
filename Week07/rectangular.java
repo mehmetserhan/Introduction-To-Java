@@ -1,11 +1,11 @@
-public class rectangular {
+public class Rectangular {
 
 	private double width;
 	private double height;
 	
-	public rectangular(){}
+	public Rectangular(){}
 
-	public rectangular(double width, double height){
+	public Rectangular(double width, double height){
 		this.width = width;
 		this.height = height;
 	}
