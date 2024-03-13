@@ -1,8 +1,7 @@
 public class ExceptionA extends Exception {
     private int id;
 
-    public ExceptionA(){
-    }
+    public ExceptionA(){}
 
     public ExceptionA(String info){
         super(info);
