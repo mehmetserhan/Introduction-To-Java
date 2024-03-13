@@ -3,10 +3,6 @@ public class ExceptionA extends Exception {
 
     public ExceptionA(){}
 
-    public ExceptionA(String info){
-        super(info);
-    }
-
     public ExceptionA(String info, int id){
         super(info);
         this.id = id;
@@ -14,9 +10,8 @@ public class ExceptionA extends Exception {
 
     public String getLocalizedMessage(){
         switch(id){
-            case 0: return "Negligible Error.";
-            case 1: return "Error !";
-            case 2: return "Important Error !!!";
+            case 0: return "Important error !!!";
+            case 1: return "Negligible error.";
             default: return "Undefined Error !?";
         }
     }
